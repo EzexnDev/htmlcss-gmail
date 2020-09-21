@@ -1,0 +1,61 @@
+.main {
+  padding: 30px;
+  background: url('../img/bg.jpg');
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+/* Gestione Logo e Testo GMail*/
+#logo {
+  width: 100px;
+  vertical-align: middle;
+}
+
+#logo-text {
+  color: white;
+  font-size: 25px;
+}
+
+/* Badge notifica*/
+.infos {
+  line-height: 30px;
+}
+
+#count {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: darkgoldenrod;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Gestione Box Mail*/
+.mail {
+  border: 0.5px solid black;
+}
+
+.mail.read {
+  background-color: #c5c3c6;
+}
+
+.mail.unread {
+  background-color: white;
+}
+
+.text {
+  color: #7f7f7f;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#credits {
+  font-size: 15px;
+  font-style: italic;
+}
